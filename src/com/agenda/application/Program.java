@@ -16,7 +16,7 @@ public class Program {
 	public static void main(String[] args) {
 
 		ContactRepository repository = new ContactRepository();
-		ContactService service = new ContactService();
+		ContactService service = new ContactService(repository);
 
 		int option;
 

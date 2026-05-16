@@ -37,6 +37,6 @@ public class ContactRepository {
 	}
 
 	public List<Contact> findAll() {
-		return new ArrayList<Contact>();
+		return new ArrayList<>(contacts);
 	}
 }
